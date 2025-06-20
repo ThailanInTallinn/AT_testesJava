@@ -15,8 +15,7 @@ public class exercicio1 {
 
     public static void main(String[] args) {
         Javalin app = Javalin.create().start(7000);
-        exercicio1 e1 = new exercicio1();
-        e1.sayHello(app);
+
 
     }
 }

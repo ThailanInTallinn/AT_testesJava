@@ -7,8 +7,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 public class exercicio2 {
-    public static void main(String[] args) {
-        Javalin app = Javalin.create().start(7000);
+    public void EndpointStatus(Javalin app){
         app.get("/status", ctx -> {
             ctx.status(200);
             LocalDateTime data = LocalDateTime.now();

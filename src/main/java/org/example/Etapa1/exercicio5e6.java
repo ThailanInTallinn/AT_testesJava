@@ -56,16 +56,4 @@ public class exercicio5e6 {
             }
         });
     }
-
-    public static void main(String[] args){
-
-        Javalin app = Javalin.create(javalinConfig -> javalinConfig.http.defaultContentType = "application/json; charset=UTF-8").start(7000);
-        ArrayList<Tarefa> tarefas = new ArrayList<>();
-        AtomicInteger taskId = new AtomicInteger(1);
-
-        exercicio5e6 ex = new exercicio5e6();
-        ex.adicionaELista(app, tarefas, taskId);
-
-
-    }
 }
