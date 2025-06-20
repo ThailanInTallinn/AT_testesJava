@@ -17,6 +17,9 @@ dependencies {
     testImplementation(platform("org.junit:junit-bom:5.10.0"))
     testImplementation("org.junit.jupiter:junit-jupiter")
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.11.0")
+    testImplementation("org.mockito:mockito-core:5.+")
+    testImplementation("org.mockito:mockito-junit-jupiter:5.12.0")
+    testImplementation("io.javalin:javalin-testtools:5.6.1")
 // Use the latest stable version
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.11.0")
 // Use the latest stable version
